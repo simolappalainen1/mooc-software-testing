@@ -11,8 +11,6 @@ public class GettingStartedTest {
         Assertions.assertEquals(25,result);
     }
 
-
-
     @Test
     public void addFiveToZero() {
         int result = new GettingStarted().addFive(0);
